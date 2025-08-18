@@ -1,14 +1,18 @@
 const finishes = 200
-console.log(finishes)
+// console.log(finishes)
 
 const score = new Number(100)
-console.log(score);
+// console.log(score);
 
-console.log(score.toString().length);
-console.log(score.toFixed(2));
+// console.log(score.toString().length);
+// console.log(score.toFixed(2));
 
 const otherNum = 123.3232
-console.log(otherNum.toPrecision(4));
+// console.log(otherNum.toPrecision(4));
+
+const hundreds = 100000
+// console.log(hundreds.toLocaleString('en-in'));
+
 
 //******************** Maths *******************/
 
