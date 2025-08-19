@@ -9,14 +9,14 @@ const myinGameStates = {
     [symb] : "BGMI",
     playerNumID : 1895482158,
     userID : "HarshitSuthar",
-    fdRatio: "5.6 F/D",
+    "fdRatio": "5.6 F/D",
     tier : "Ace",
     higestTier : "Conqueror",
     "curruntSeason" : " 9"
 }
 
 // console.log(myinGameStates.userID); // First way to print a value of object
-// console.log(myinGameStates["fdRatio"]); // Secound way to print a value of object  
+// console.log(myinGameStates["fdRatio"]); // Secound way to print a value of object in a special case when the key value pair are used as strings
 // console.log(myinGameStates["curruntSeason"]);// to print string value of object
 // console.log(myinGameStates[symb]); //to print the symbol value of an object
 
