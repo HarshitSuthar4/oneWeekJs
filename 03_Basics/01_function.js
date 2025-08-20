@@ -40,6 +40,7 @@ function userLogin(username) {
 
 // console.log(userLogin("Harshit"))
 // console.log(userLogin("")); // if you pass empty string into the arguments the output will be like CHECK TERMINAL AND RUN CODE
-// console.log(userLogin()); // if we pass nothing to the arguments then result will be undefined 
+// console.log(userLogin()); // if we pass nothing to the arguments then result will be undefined  
+
 
 
