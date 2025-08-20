@@ -43,4 +43,26 @@ function userLogin(username) {
 // console.log(userLogin()); // if we pass nothing to the arguments then result will be undefined  
 
 
+function calculateCartPrice(...num1) {
+    return num1
+}
+// console.log(calculateCartPrice(200, 350, 400)); // to add all the values together we have to use ...rest operator (spread and rest operator are same but it depends on use case what will you call it )   
+// 
+
+const chair = {
+    chairType: "gameing chair",
+    price: 15999
+}
+
+function product(object) {
+    console.log(`product is ${object.chairType} and price is ${object.price}`);  
+}
+// product(chair); // this is how we can put any object values inside a function
+
+const myNewArr = [200, 150, 500, 410];
+
+function returnVal(val) {
+    return val[3]    
+}
+console.log(returnVal(myNewArr))
 
