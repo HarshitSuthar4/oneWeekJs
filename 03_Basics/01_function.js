@@ -66,3 +66,16 @@ function returnVal(val) {
 }
 console.log(returnVal(myNewArr))
 
+
+//Note: function stored or holded without a variable is called function only.
+//function holded inside a variable is called function expression.
+//Examples => 
+
+
+    funcation(){
+
+    } // this is a normal function structure
+
+    const myFunction = function() {
+        
+    } // this is called function expression.
