@@ -1,7 +1,7 @@
 // Immediately invoked function expression (IIFE)
 
 (function one() {
-    console.log(`DB NOT CONNECTED`);
+    console.log(`DB NOT CONNECTED`); // named iife
 
 })(); // Syntax of IIFE  (Named IIFE) Semicolon is importent if there are more then one IIFE
 
