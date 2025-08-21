@@ -72,7 +72,7 @@ console.log(returnVal(myNewArr))
 //Examples => 
 
 
-    funcation(){
+    function funName(){
 
     } // this is a normal function structure
 
