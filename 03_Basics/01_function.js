@@ -46,7 +46,7 @@ function userLogin(username) {
 function calculateCartPrice(...num1) {
     return num1
 }
-// console.log(calculateCartPrice(200, 350, 400)); // to add all the values together we have to use ...rest operator (spread and rest operator are same but it depends on use case what will you call it )   
+console.log(calculateCartPrice(200, 350, 400)); // to add all the values together we have to use ...rest operator (spread and rest operator are same but it depends on use case what will you call it )   
 // 
 
 const chair = {
