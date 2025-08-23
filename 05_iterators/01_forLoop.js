@@ -19,11 +19,11 @@ for (let i = 1; i <= 10; i++) {
 }
 
 let marvelHeroes = ["Captain America", "Dr. Strange", "Thor", "Loki"]
-console.log(marvelHeroes.length);
+// console.log(marvelHeroes.length);
 
 for (let index = 0; index < marvelHeroes.length; index++) {
     const element = marvelHeroes[index];
-    console.log(element);
+    // console.log(element);
 } // For loop on arrays
 
 
@@ -31,7 +31,7 @@ for (let index = 0; index < marvelHeroes.length; index++) {
 
 for (let index = 1; index <= 20; index++) {
     if (index == 5) {
-        console.log("5 Found");
+        // console.log("5 Found");
         break
     }
     // console.log(`Value of index is ${index}`);
@@ -39,8 +39,8 @@ for (let index = 1; index <= 20; index++) {
 
 for (let index = 1; index <= 20; index++) {
     if (index == 5) {
-        // console.log("5 Found");
+        console.log("5 Found");
         continue
     }
-    // console.log(`Value of index is ${index}`);
+    console.log(`Value of index is ${index}`);
 }
