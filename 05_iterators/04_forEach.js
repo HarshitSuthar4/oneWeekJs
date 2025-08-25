@@ -66,4 +66,4 @@ const val = superHeroes.forEach((name)=>{
     // return name
 })
 
-// console.log(val);
+console.log(val);
