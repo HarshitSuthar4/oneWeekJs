@@ -13,9 +13,9 @@ const superHeroes = ["Captain America", "Thor", "Iron man", "Flash"]
 // }
 // superHeroes.forEach(printMe) // forEach on a normal function
 
-// superHeroes.forEach( (names, index) =>{
-// console.log(index, names);
-// })  // access values, index and the array together
+// superHeroes.forEach( (names, index, superHeroes) =>{
+// console.log(index, names, superHeroes);
+// })  // access values, index and the array 
 
 
 const programming = [
@@ -61,9 +61,9 @@ const programming = [
 //     console.log(lang.laguageName);
 // } )
 
-// const val = superHeroes.forEach((name)=>{
-//     // console.log(name);
-//     return name
-// })
+const val = superHeroes.forEach((name)=>{
+    console.log(name);
+    // return name
+})
 
 // console.log(val);
