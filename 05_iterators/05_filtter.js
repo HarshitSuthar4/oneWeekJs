@@ -1,9 +1,9 @@
-const numVal = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+// const numVal = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-const allVal = numVal.filter((val) => {
-    return val > 4
-})
-console.log(allVal);
+// const allVal = numVal.filter((val) => {
+//     return val > 4
+// })
+// console.log(allVal);
 
 const books = [
     { title: 'Book One', genre: 'Fiction', publish: 1981, edition: 2004 },
@@ -18,7 +18,7 @@ const books = [
   ];
 
 
-  let userBooks = books.filter((bk)=>{ return bk.edition >= 1990 && bk.genre === 'History'
+  let userBooks = books.filter((bk)=>{ return bk.edition >= 1989 && bk.genre === 'History'
   })
   console.log(userBooks);
   
