@@ -22,5 +22,5 @@ for (const key in programmingLang) {
 
 const lang = ["js", "cpp", "java", "python"]
 for (const key in lang) {
-    // console.log(lang[key]);
+    console.log(lang[key]);
 } // for in with arry
